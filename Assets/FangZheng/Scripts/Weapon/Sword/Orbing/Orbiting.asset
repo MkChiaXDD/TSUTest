@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8af60670517e12948af4af7635624c64, type: 3}
+  m_Name: Orbiting
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: dedb70fa69722714fa03fefc46666afe, type: 3}
+  itemName: Shuriken
+  description: Orb
+  maxStack: 1
+  itemType: 2
+  ItemPrefab: {fileID: 1657680970301162688, guid: 2366700a9996c434f8ce1ae0b9e7a6bf,
+    type: 3}
+  MaxDurability: 2
+  spells:
+    SpellPrefab: {fileID: 6922077395426477944, guid: 6e2364ba5a2f79741ab4b065a5b9bdb9,
+      type: 3}
+    dmg: 2
+    Radius: 4
+    Size: {x: 2, y: 2, z: 2}
+    Range: 2
+    spell: {fileID: 0}
+    duration: 20
+    AtkPerSec: 0.1
+    Speed: 20
+    ApplyElement: []
+    collisionType: 1
+    spellType: 1
